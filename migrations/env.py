@@ -1,5 +1,8 @@
 import os
 import sys
+import pydantic
+import pydantic_settings
+
 from logging.config import fileConfig
 
 from sqlalchemy import engine_from_config
@@ -17,7 +20,7 @@ from app.core.config import settings
 
 # Importar modelos aqui para que o autogenerate funcione
 from app.modules.users.models import User
-# from app.modules.payments.models import Payment # Exemplo
+from app.modules.payments.models import Payment
 # from app.modules.transactions.models import Transaction # Exemplo
 
 # this is the Alembic Config object, which provides

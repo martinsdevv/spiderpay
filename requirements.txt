@@ -1,17 +1,11 @@
-fastapi>=0.110.0,<0.111.0
-
-uvicorn[standard]>=0.29.0,<0.30.0
-
-sqlalchemy[asyncio]>=2.0.29,<2.1.0
-asyncpg>=0.29.0,<0.30.0  # PostgreSQL Async Driver
-psycopg2-binary>=2.9.9,<2.10.0 # Often needed for Alembic/sync operations
-
-pydantic>=2.6.4,<2.7.0
-pydantic-settings>=2.2.1,<2.3.0
-
-alembic>=1.13.1,<1.14.0
-
-# pytest>=8.1.1,<8.2.0
-
-# Password Hashing
-passlib[bcrypt]>=1.7.4,<1.8.0 # Para hashing de senhas
+fastapi[security]
+uvicorn[standard]
+sqlalchemy[asyncio]
+asyncpg
+psycopg2-binary
+pydantic
+pydantic-settings
+alembic
+passlib[bcrypt]
+python-jose[cryptography]
+python-multipart
