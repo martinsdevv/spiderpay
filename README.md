@@ -2,7 +2,7 @@
 
 ## Descrição
 
-SpiderPay é um projeto de API de pagamentos RESTful desenvolvido como parte de um portfólio para demonstrar habilidades de desenvolvimento backend de nível Pleno. A API simula o fluxo de criação e consulta de pagamentos, interagindo com um sistema de gateway de pagamento abstraído e mockado internamente.
+SpiderPay é um projeto de API de pagamentos RESTful desenvolvido como parte de um portfólio pessoal. A API simula o fluxo de criação e consulta de pagamentos, interagindo com um sistema de gateway de pagamento abstraído e mockado internamente.
 
 O objetivo principal é apresentar uma arquitetura de software robusta, modular, testável e extensível, utilizando tecnologias modernas e boas práticas de engenharia de software. A arquitetura permite a fácil substituição ou adição de novos gateways de pagamento no futuro.
 
